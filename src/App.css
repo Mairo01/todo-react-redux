@@ -1,0 +1,33 @@
+.ToDo-form {
+  text-align: center;
+}
+
+.todo {
+  margin: 10px auto;
+  max-width: 400px;
+  background-color: #DDD;
+}
+
+.todo > * {
+  display:inline-flex;
+}
+
+.todo-text {
+  margin-left: 10px;
+  width: 75%;
+}
+
+.todo-form-modify,
+.todo-modifying {
+  width: 100%;
+}
+
+.todo-delete,
+.todo-modify,
+.todo-save {
+  margin: 0;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+
